@@ -17,6 +17,7 @@ int row_new(lua_State *L)
 
 int row__tostring(lua_State *L)
 {
+    lua_pushstring(L, "<row>");
     return 1;
 }
 
